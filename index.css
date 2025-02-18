@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+  }
+  h1{
+      padding-left:37%;
+      padding-top:5px;
+  }
+  
+  a{
+      text-decoration: none;
+      text-align: center;
+  }
+  
+  .links{
+      text-decoration: none;
+      padding-top: 20px;
+  }
+  .back{
+      position: absolute;
+      right: 0;
+      bottom:0;
+      z-index: -1;
+  }
+  body {
+    background-image: url(background.jpg.jpg);
+    background-size: cover; /* This will make the image cover the entire page, scaling proportionally */
+    background-attachment: fixed; /* This will keep the image fixed as the page scrolls */
+  }
+  
+  .btn{
+    border: none;
+  }
+  .links:hover{
+    color: rgba(177, 85, 9, 0.979);
+  }
+  ul {
+      list-style: none;
+    }
+    
+    button {
+      text-decoration: none;
+      background-color: transparent; 
+      color: #333; 
+      border:  2px solid transparent; /* Add transparent border */
+      padding: 10px 20px; 
+      margin: 0 10px; 
+      border-radius: 5px; 
+      cursor: pointer; 
+    }
+    
+    a {
+      
+      color: rgba(151, 5, 73, 0.76);
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: oblique;
+      
+    }
+    
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      position: fixed; 
+      top: 50%;
+      width: 100%;
+    }
+    button:hover {
+      border-color: black; /* Change to your desired color */
+    }
+    
