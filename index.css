@@ -7,7 +7,22 @@
       padding-left:37%;
       padding-top:5px;
   }
-  
+  .skip {
+    position: absolute;
+    left: -9999px; 
+    top: -9999px; 
+}
+
+.skip:focus {
+    position: static; 
+    left: auto;
+    top: auto; 
+    background-color: #fff;
+    color: #000; 
+    padding: 8px; 
+    z-index: 1000; 
+}
+
   a{
       text-decoration: none;
       text-align: center;
