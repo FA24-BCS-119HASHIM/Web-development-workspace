@@ -13,7 +13,11 @@ ul{
 li > a{
     text-decoration: none;
     color: white;
-   
+    transition: color 0.5s ease-in 1s;
+}
+li > a:hover{
+      color:rgb(90, 197, 41);
+
 }
 h1{
     padding-top: 80px;
@@ -22,17 +26,23 @@ h1{
 li{
     text-align: center;
 }
-#movies1{
-    display: flex;
-    
+
+#container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 10%;
+    padding-top: 100px
 }
-#movies2{
-    display: flex;
-    
-}
-img{
+div>img{
     height: 250px;
     width:300px;
+    border: 2px solid black;
+    border-radius: 2px;
+    transition: border-radius .5s  ease-in 1s,border .5s  ease-in 1s;
+}
+div>img:hover{
+    border-radius: 50%;
+    border: transparent;
 }
 #back{
     margin-left: 38%;
@@ -40,10 +50,7 @@ img{
     width:300px;
     padding-top: 20px;
 }
-#container{
-    margin-left: 10%;
-    padding-top: 100px;
-}
+
 footer{
     margin-top: 40px;
     height:70px;
@@ -55,10 +62,10 @@ footer>p{
     padding-top: 30px;
 }
 a{
-    
     text-decoration: none;
     color:black;
     font-weight:bold;
+    transition: color 0.5s ease-in 1s;
 }
 .See{
     padding-top:20px;
